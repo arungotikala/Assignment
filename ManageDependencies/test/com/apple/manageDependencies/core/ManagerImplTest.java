@@ -40,10 +40,7 @@ class ManagerImplTest {
 	        TestCase.assertEquals(0, manager.list().size());
 
 	}
-	/**
-	 * 
-	 * @throws ServiceException
-	 */
+
 	 @Test
 	    public void cannotInstall() throws Exception {
 	        manager.depend(sft, toSet(sft2));
